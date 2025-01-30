@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SBE Market Matrix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .navbar {
+      background-color: #ffffff; /* White background */
+      border-bottom: 1px solid #e0e0e0; /* Subtle border for separation */
+      height: 100px;
+      padding: 10px 0;
+    }
+    
+    .navbar-brand img {
+      height: 80px; /* Adjusted for better responsiveness */
+      width: auto;
+    }
+
+    .nav-link {
+      color: #000000 !important; /* Black text */
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .nav-link:hover {
+      color: #11bfdd !important; /* Blue hover effect */
+    }
+
+    /* Improves mobile view */
+    @media (max-width: 991px) { 
+      .navbar-nav {
+        text-align: center; /* Centers the menu in mobile */
+      }
+      .nav-item {
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo/Image on the left -->
+      <a class="navbar-brand" href="#">
+        <img src="Group 26.png" alt="Company Logo">
+      </a>
+      <!-- Mobile toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Welcome Section -->
+  <section class="welcome-section d-flex align-items-center" style="background-color: #F5FCFF; width: 100%; height: auto;">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center text-center text-md-start">
+          <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 75px; line-height: 112.5px; margin-bottom: 0;">
+            <span style="color: #62C1BF;">Welcome to</span>
+          </h1>
+          <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 75px; line-height: 112.5px; color: #0a0b0b;">
+            SBE Market Matrix
+          </h1>
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 42px;">
+            Your trusted partner for advanced engineering and industrial solutions.
+          </p>
+          <a href="#explore" class="btn" 
+            style="background-color: #62C1BF; color: #ffffff; border-radius: 5px; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 16px; width: 228px; height: 54px; display: flex; align-items: center; justify-content: center; margin-top: 50px;">
+            Explore
+          </a>
+        </div>
+  
+        <!-- Image -->
+        <div class="col-12 col-md-6 d-flex justify-content-center mt-4 mt-md-0">
+          <img src="freepik__a-middleaged-caucasian-man-with-short-dark-hair-we__39622 1 (1).png" alt="Welcome Image" class="img-fluid" 
+            style="width: 100%; max-width: 800px; height: auto; border-radius: 222px; display: flex;">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+<!-- Product Portfolio Section -->
+<section class="product-portfolio-section" style="background-color: #fdfbfb; width: 100%; height: auto;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 50px; line-height: 75px; color: #050606;">
+        PRODUCT PORTFOLIO
+      </h2>
+      <!-- Blue Underline -->
+      <div style="width: 200px; height: 4px; background-color: #62C1BF; margin: 0 auto; margin-top: -15px;"></div>
+    </div>
+
+    <!-- Air Filters -->
+    <div class="row mb-5 justify-content-center">
+      <!-- Title -->
+      <div class="col-12 ">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; line-height: 60px; margin-bottom: 20px;">
+          AIR FILTERS
+        </h3>
+      </div>
+      <!-- Responsive Image -->
+      <div class="col-12 text-center">
+        <img src="image 51998.png" alt="Air Filters" class="img-fluid" 
+          style="width: 100%; height: auto; border-radius: 20px;">
+      </div>
+      
+    </div>
+
+    <!-- Product Ranges -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px;">
+          Products Ranges:
+        </h3>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <!-- Responsive 2x2 grid on mobile, 4x3 on larger screens -->
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Air Filtration System
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Mini Pleat HEPA Filter
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Paint Booth Filter
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Pre-Fine Filters
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Pocket Type Air Filter
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Air Filters
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span>  HEPA Filters
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Dust Collector
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span>HDPE Filters
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span>  Pre-Fine Filters
+            </p>
+          </div>
+          <div class="col-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span>  Viscous Metallic Air Filter
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Applications -->
+    <div class="row">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px;">
+          Applications:
+        </h3>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <!-- Application Items -->
+          <div class="col-6 col-md-4 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Food & Pharma Industries
+            </p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Automobile Industries
+            </p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Compressor & Blower Suction
+            </p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> HVAC
+            </p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-size: 28px; line-height: 30px; color: #555;">
+              <span style="color: #62C1BF;">●</span> Cleanroom Application
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+<!-- Rupture Discs & Explosive Vents Section -->
+<section class="rupture-discs-section" style="background-color: #F5FCFF; width: 100%; min-height: 100vh;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          RUPTURE DISCS & EXPLOSIVE VENTS
+        </h2>
+      </div>
+    </div>
+
+    <!-- Images -->
+    <div class="row mb-5 justify-content-center">
+      <!-- Left Image -->
+      <div class="col-md-6 col-lg-5 text-center">
+        <img src="image 52000.png" alt="Rupture Disc Image Left" class="img-fluid">
+      </div>
+      <!-- Right Image -->
+      <div class="col-md-6 col-lg-5 text-center">
+        <img src="image 51999.png" alt="Rupture Disc Image Right" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <!-- Title -->
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; margin-top: 20px;">
+          Product Range:
+        </h3>
+      </div>
+      <!-- Items -->
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Rupture Discs
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Explosion Vents
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Flameless Venting
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Flame Arrestor
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Explosion Isolation Valves
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Safety Relief Valves
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 28px; line-height: 30px; color: #555555;">
+            <span style="color: #62C1BF;">●</span> Flexible Connection and Emergency Vent.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Applications -->
+    <div class="row">
+      <!-- Title -->
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; text-align: left;">
+          Applications
+        </h3>
+      </div>
+      <!-- Energy -->
+      <div class="col-12 mb-3">
+        <h4 style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 36px; line-height: 40px; margin-bottom: 10px; text-align: left;">
+          Energy:
+        </h4>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+          <span style="color: #62C1BF;">●</span> Hydrogen, Oil, Gas, and Refinery Plants
+        </p>
+      </div>
+      <!-- Chemical & Petrochemical -->
+      <div class="col-12 mb-3">
+        <h4 style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 36px; line-height: 40px; margin-bottom: 10px; text-align: left;">
+          Chemical & Petrochemical:
+        </h4>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+          <span style="color: #62C1BF;">●</span> Manufacturing facilities
+        </p>
+      </div>
+      <!-- Food -->
+      <div class="col-12">
+        <h4 style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 36px; line-height: 40px; margin-bottom: 10px; text-align: left;">
+          Food and Pharmaceutical:
+        </h4>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+          <span style="color: #62c1bf;">●</span> Processing plants
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Oil Mist Eliminator, Filters, and Separators Section -->
+<section class="oil-mist-section" style="background-color: #FFFFFF; width: 100%; height: auto; padding: 50px 0;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          OIL MIST ELIMINATOR, FILTERS AND SEPARATORS
+        </h2>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="row mb-5 justify-content-center">
+      <div class="col-lg-8 col-md-10 col-sm-12 text-center">
+        <img src="image 52020.png" alt="Oil Mist Eliminator Image" 
+          style="width: 100%; max-width: 827px; height: auto; border-radius: 20px;">
+      </div>
+    </div>
+
+    <!-- Product Ranges -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 40px; margin-bottom: 10px; text-align: left;">
+          Product Range:
+        </h3>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <!-- Items -->
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Vacuum Process Filters & Liquid
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Industrial Silencers for Blowers
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Compressor & Vacuum Pumps
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Separators
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Oil Mist Eliminators
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> Crank case ventilation
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 28px; line-height: 42px;">
+              <span style="color: #62C1BF;">●</span> All types cartridge Air/ Gas filter elements
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Applications -->
+    <div class="row">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; text-align: left;">
+          Applications :
+        </h3>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> Air/oil separation products for vacuum pumps
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> Compressors
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> Rotary screw
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> Rotary piston and scroll
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> Gear boxes and lubrication consoles
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> including rotary vane
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span> liquid ring
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px;">
+              <span style="color: #62C1BF;">●</span>  Pump technologies
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Valves with Automation Section -->
+<section class="valves-automation-section" style="background-color: #F5FCFF; width: 100%; max-width: 1920px; height: auto; padding: 20px;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          VALVES WITH AUTOMATION
+        </h2>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <img src="image 52046.png" alt="Valves with Automation Image" 
+          style="width: 100%; max-width: 827px; height: auto; border-radius: 20px;">
+      </div>
+    </div>
+
+    <!-- Description    -->
+    <div class="row mb-4">
+      <div class="col-12 ">
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808;">
+          Offers a complete line of valves, including Gate, Globe, Check and Ball valve types. Also available are Automated Valves, Limit Switch enclosures, and Pneumatic Actuators.
+        </p>
+      </div>
+    </div>
+
+    <!-- Applications -->
+    <div class="row">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; text-align: left;">
+          Applications
+        </h3>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; color: #0a0a0a;">
+              <span style="color: #62C1BF;">●</span> Oil & Gas
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; color: #060606;">
+              <span style="color: #62C1BF;">●</span> Power
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; color: #0c0c0c;">
+              <span style="color: #62C1BF;">●</span> Food & Pharma Industries
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; color: #040404;">
+              <span style="color: #62C1BF;">●</span> Steam Application
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--SPECIAL PURPOSE MACHINE - NOISE & VIBRATION  -->
+<section class="special-purpose-machine-noise-vibration" style="background-color: #FFFFFF; width: 100%; max-width: 1920px; height: auto; padding: 20px;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          SPECIAL PURPOSE MACHINE - NOISE & VIBRATION
+        </h2>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <img src="image 52054.png" alt="Valves with Automation Image" 
+          style="width: 100%; max-width: 1093px; height: auto; border-radius: 20px;">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; text-align: left;">
+          Sound and Vibration Solutions:
+        </h3>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+            Leading Solutions for Automotive Testing, Specializing in purpose-built machines and equipment. Designing and manufacturing acoustic enclosures. Catering to the needs of the automotive industry.
+          </p>
+          <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+            Committed to quality, reliability, and innovation. Partner with us for advanced testing solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PROCESS ENGINEERING & PACKAGE MANUFACTURING  -->
+
+<section class="process-engineering-package-manufacturing" style="background-color: #F5FCFF; width: 100%; max-width: 1920px; height: auto; padding: 20px;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          PROCESS ENGINEERING & PACKAGE MANUFACTURING
+        </h2>
+      </div>
+    </div>
+
+    <!-- Images -->
+    <div class="row mb-5 justify-content-center">
+      <!-- Left Image -->
+      <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
+        <img src="image 52055.png" alt="PROCESS ENGINEERING & PACKAGE MANUFACTURING Left" 
+          style="width: 100%; max-width: 721px; height: auto;">
+      </div>
+      <!-- Right Image -->
+      <div class="col-12 col-md-6 text-center">
+        <img src="image 52056.png" alt="PROCESS ENGINEERING & PACKAGE MANUFACTURING Right" 
+          style="width: 100%; max-width: 721px; height: auto;">
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <!-- Title -->
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; margin-top: 20px;">
+          Process Skid Systems:
+        </h3>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+            Instron Technologies Skid Systems offer comprehensive project packages, including basic and detailed
+            engineering, dosing systems, extraction systems, distillation systems, and advanced combustion management.
+            These tailored solutions enhance overall system efficiency, safety, and compliance, meeting the specific
+            requirements of diverse industries.
+          </p>
+          <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+            Process skids are widely used in sectors such as oil and gas, chemicals, R&D labs, pharmaceuticals, food and
+            beverage. Process Skid Systems play a vital role in boosting productivity, reducing downtime, and maintaining
+            precise control over critical processes. By providing scalability and flexibility, these systems empower industries
+            to innovate and efficiently adapt to changing demands.
+          </p>
+          <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+            Process Skid Systems typically integrate essential mechanical components like reactors, separators, heat
+            exchangers, pumps, valves along with instrumentation components like pressure, flow, pH, density, level
+            transmitters etc within a compact framework, enabling precise control using IoT-enabled software.
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <!-- Title -->
+        <div class="col-12">
+          <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; margin-top: 20px;">
+            Digital Factory Solutions:
+          </h3>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+              Digital Factory Solutions integrate advanced technologies like IoT, data analytics, and automation to create
+              smarter, more efficient factories. These solutions offer real-time monitoring, predictive maintenance, OEE
+              tracking, energy and utility monitoring, traceability, and form digitization, enabling businesses to streamline
+              operations and improve overall performance.
+            </p>
+            <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+              Applications span various industries, including manufacturing, automotive, electronics, food and beverage, and
+              pharmaceuticals, where they enhance productivity, ensure quality control, and support compliance with industry
+              standards. By providing actionable insights and real-time data, these solutions help businesses stay agile in a
+              competitive market.
+            </p>
+            <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+              The importance of Digital Factory Solutions lies in their ability to improve efficiency, facilitate better decision-
+              making, increase operational flexibility, enhance product quality, reduce costs, and promote sustainability. With
+              Instron Technologies PlantON, industries can optimize operations, embrace innovation, and maintain a
+              competitive edge in an ever-evolving industrial landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--  VESSELS DESIGN AND FABRICATIONS -->
+<section class="vessels-design-and-fabrications" style="background-color: #FFFFFF; width: 100%; max-width: 1920px; height: auto; padding: 20px;">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          VESSELS DESIGN AND FABRICATIONS
+        </h2>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <img src="image 52057.png" alt="Vessels Design and Fabrication Image" 
+          style="width: 100%; max-width: 1587px; height: auto;">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h3 style="font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 40px; line-height: 60px; margin-bottom: 20px; text-align: left;">
+          Products Range:
+        </h3>
+      </div>
+
+      <div class="col-12">
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          Packed Towers (with Structured Packing and associated internals), Distillation Trays, Static Mixers, Heat Exchangers.
+        </p>
+        <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          In addition, we excel in designing and commissioning turnkey distillation systems tailored to meet the specific 
+          solvent needs of the pharmaceutical, chemical, and agrochemical industries. Our team is dedicated to providing 
+          bespoke solutions that align with your process requirements, ensuring optimal performance.
+        </p>
+        <p style="margin-top: 20px; font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          We also hold patented technology for biodiesel production, showcasing our commitment to driving innovation in 
+          sustainable energy solutions. This technology is a testament to our forward-thinking approach and dedication to 
+          green energy.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- DETAILING ENGINEERING WITH BILL OF MATERIAL PREPARATION  -->
+<section class="DETAILING ENGINEERING WITH BILL OF MATERIAL PREPARATION" style="background-color: #F5FCFF; width: 100%; height: auto;">
+
+  <div class="container">
+    <!-- Section Title -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          DETAILING ENGINEERING WITH BILL OF MATERIAL PREPARATION
+        </h2>
+      </div>
+    </div>
+
+    <!-- Images -->
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <img src="image 52058.png" alt="Valves with Automation Image" 
+          class="img-fluid" style="max-width: 100%; height: auto; margin-top: 20px;">
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="row mb-4">
+      <div class="col-12">
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          Comprehensive design & engineering services for various plants. Cost-effective, high-quality, and reliable 
+          solutions.
+        </p>
+        <br>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          Qualified professionals for design, Detailing and 3D modelling.
+        </p>
+        <br>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 30px; line-height: 45px; color: #080808; text-align: left;">
+          Autodesk Inventor, Plant 3D, software's, Lube oil Skid 3D Design, Cooling Water Skid 3D Design, Vacuum Skid 3D 
+          Design, Dosing Skid 3D Design, Equipment Fabrication Detail Drawing, ETP, WRP Plant Design, Base Frame structure 
+          analysis and Reverse Engineering and Product development.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- We Offer -->
+<section class="We Offer" style="background-color: #F5FCFF; width: 100%; height: auto;">
+  <section class="container">
+    <div class="text-center mb-5">
+      <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 50px; line-height: 75px; color: #050606;">
+        We Offer
+      </h2>
+      <!-- Larger Blue Underline -->
+      <div style="width: 200px; height: 4px; background-color: #62C1BF; margin: 0 auto; margin-top: -15px;"></div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-12">
+        <h2 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 55px; line-height: 82px; text-align: left;">
+          PROCUREMENT CONSULTANTS   :
+        </h2>
+      </div>
+    </div>
+
+    <div class="col-12 mb-3">
+      <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+        <span style="color: #62C1BF;">●</span> DOMESTIC AND IMPORTED COMPONENTS FOR SKIDS PACKAGES
+      </p>
+      <br>
+      <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+        <span style="color: #62C1BF;">●</span> CASTING AND FORGING
+      </p>
+      <br>
+      <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size: 30px; line-height: 45px; text-align: left;">
+        <span style="color: #62C1BF;">●</span> SOURCING AND EXPEDITING SERVICES
+      </p>
+      <br>
+    </div>
+  </section>
+</section>
+
+
+<!-- contact us -->
+<section class="contact-section" style="font-family: 'Poppins', sans-serif; background-color: #FFFFFF; padding: 50px 0;">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 50px; line-height: 75px; color: #050606;">
+        Contact Us
+      </h2>
+      <!-- Larger Blue Underline -->
+      <div style="width: 200px; height: 4px; background-color: #62C1BF; margin: 0 auto; margin-top: -15px;"></div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 contact-item" style="text-align: center;">
+        <h3 style="font-size: 38px; font-weight: 300;">Email</h3>
+        <p style="font-size: 22px; font-weight: 300; margin: 5px 0;">
+          <a href="mailto:info@sebmarketmatrix.com" style="text-decoration: underline; color: black;">
+            INFO@SEBMARKETMATRIX.COM
+          </a>
+        </p>
+      </div>
+
+      <div class="col-12 col-md-4 contact-item" style="text-align: center;">
+        <h3 style="font-size: 38px; font-weight: 300;">Phone Number</h3>
+        <p style="font-size: 22px; font-weight: 300; margin: 5px 0;">+91 976 555 49 53</p>
+        <p style="font-size: 22px; font-weight: 300; margin: 5px 0;">+91 9764 999 458</p>
+      </div>
+
+      <div class="col-12 col-md-4 contact-item" style="text-align: center;">
+        <h3 style="font-size: 38px; font-weight: 300;">Address</h3>
+        <p style="font-size: 22px; font-weight: 300; margin: 5px 0;">
+          MOSHI, PCMC AREA, PUNE<br>412 105, MAHARASHTRA<br>STATE, INDIA.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- footer -->
+<section class="footer-section" style="
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+">
+  <div class="container">
+    <p class="mb-0">© 2024 SBE Market Matrix Pvt Ltd. All Rights Reserved</p>
+  </div>
+</section>
+
+
+</body>
+</html>
